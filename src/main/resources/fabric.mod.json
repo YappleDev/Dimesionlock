@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dimensionlock",
+  "version": "${version}",
+  "name": "Dimension Lock",
+  "description": "Sperrt Nether und End per Command: /dimension <dimension> lock/unlock",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.dimensionlock.DimensionLockMod"]
+  },
+  "mixins": ["dimensionlock.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

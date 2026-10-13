@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "de.dimensionlock.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
